@@ -1,0 +1,272 @@
+
+/*侧边栏*/
+#left{
+	width: 68px;
+	height: 310px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	position: fixed;
+	top: 265px;
+	left: 3px;
+	padding: 0 5px;
+	font-size: 12px;
+	text-align: center;
+	z-index: 99999;
+}
+#left p{
+	margin-top: 10px;
+	border-bottom: 1px darkgray solid;
+	padding-bottom: 2px;
+}
+#left .a1{
+	display: inline-block;
+	margin-top: 10px;
+}
+/*侧边栏2*/
+#right{
+	width: 80px;
+	height: 312px;
+	position: fixed;
+	top: 200px;
+	right: 2px;
+	text-align: center;
+	z-index: 1;
+}
+#right .one{
+	background: greenyellow;
+	padding: 2px;
+	color: white;
+}
+#right .one1{
+	background: aquamarine;
+	padding: 2px;
+	color: white;
+}
+#right .one2{
+	background: salmon;
+	padding: 2px;
+	color: white;
+}
+#right .one3{
+	background: indigo;
+	padding: 2px;
+	color: white;
+}
+#right .one4{
+	background: fuchsia;
+	padding: 2px;
+	color: white;
+}
+/*顶部*/
+#top{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #fecb16;
+}
+#top .zi{
+	padding-left: 100px;
+	white-space:nowrap;
+	overflow: hidden;
+}
+/*导航*/
+.navbar-default{
+	padding-top: 4px;
+	width: 100%;
+	height: 60px;
+	background: #000000;
+}
+#nav .pic{
+	margin-top: -15px;
+}
+#nav .pic2{
+	float: left;
+	margin-right: 5px;
+}
+#nav .in{
+	background: #000000;
+	border:0;
+	border-bottom: 2px white solid;
+}
+#nav .you{
+	float: right;
+	padding-left: 15px;
+}
+.navbar-right{
+	padding-top: 20px;
+}
+/*方向*/
+#fang .row{
+	padding-bottom: 10px;
+	border-bottom: 2px gainsboro solid;
+}
+#fang span{
+	display: inline-block;
+	padding: 8px 15px;
+}
+#fang .s1{
+	font-weight: bold;
+}
+#fang .s2{
+	background: #188eee;
+}
+@media (max-width:768px ) {
+   #fang .xs span{
+   	background: #f2f2f2;
+   	margin-left: 10px;
+   	margin-bottom: 10px;
+   } 
+}
+/*分类*/
+#fen .row{
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+#fen span{
+	display: inline-block;
+	padding: 8px 15px;
+}
+#fen .s1{
+	font-weight: bold;
+}
+#fen .s2{
+	background: #188eee;
+}
+/*正文*/
+#main{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	padding-top: 60px;
+}
+#main .lia{
+	background: white;
+	padding-bottom: 15px;
+}
+.lia h5{
+	padding-top: 20px;
+}
+.lia h5,span{
+	font-size: 12px;
+	padding-left: 10px;
+}
+.lia .s1{
+	display: inline-block;
+	padding-left: 60px;
+}
+.lia .vip{
+	display: inline-block;
+	padding: 3px;
+	background: #78b421;
+	color: white;
+}
+#main .row{
+	padding-bottom: 20px;
+}
+@media (max-width:768px ) {
+	#main .lia,.lia h5{
+	padding:0;
+ }
+}
+/*分页*/
+#page{
+	padding: 30px 0;
+}
+#page a{
+	display: inline-block;
+	padding:8px 15px;
+	text-decoration: none;
+}
+#page .yaun{
+	background: #188eee;
+	border-radius: 50%;
+	color: white;
+}
+/*友情链接*/
+#you{
+	padding: 30px 0;
+	border-bottom: 1px gainsboro solid;
+}
+#you span{
+	padding-right: 30px;
+}
+/*帮助中心*/
+#help .zuo{
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+#help a{
+	color: darkgray;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 10px;
+}
+#help .xian{
+	border-right: 1px darkgray solid;
+}
+#help .you{
+	padding-top: 10px;
+}
+#help .you img{
+	float: left;
+}
+#help .you span{
+	float: left;
+}
+#help .you p{
+	font-size: 12px;
+}
+#help .you .ke{
+	width: 140px;
+	height: 26px;
+	padding-top: 5px;
+	padding-left: 30px;
+	border:1px #188eee solid;
+}
+#help .you .you1{
+	padding-top: 120px;
+}
+#help .you .you1 h5{
+	float: left;
+	padding-left: 15px;
+}
+/*学习群*/
+#stady{
+	padding: 30px 0;
+}
+#stady p{
+	width: 100%;
+    height: 32px;
+    line-height: 25px;
+    margin-left: 25%;
+}
+#stady span{
+	float: left;
+}
+#stady a{
+	float: left;
+	padding-left: 5px;
+}
+#stady .a{
+	color: red;
+}
+/*底部*/
+#footer{
+	width: 100%;
+	height: auto;
+	background: #fafafa;
+	padding: 30px 0;
+}
+#footer p{
+	margin-left: 35%;
+}
+#footer .p1{
+	padding-top: 20px;
+	float: left;
+}
+#footer .p2{
+	float: left;
+	padding-top: 23px;
+	padding-right: 30px;
+}
